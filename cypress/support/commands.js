@@ -137,16 +137,5 @@ Cypress.Commands.add('apiUserRegistration', () => {
         // expect(response.body).to.have.property('name', 'Sajan');
         // expect(response.body).to.have.property('email', 'test123675@gmail.com');
         // expect(response.body).to.have.property('password', 'Test@123');
-
-        // {
-        //     "success": true,
-        //     "status": 201,
-        //     "message": "User account created successfully",
-        //     "data": {
-        //         "id": "667ed322ad137f014a8b4eab",
-        //         "name": "Sajan",
-        //         "email": "test123675@gmail.com"
-        //     }
-        // }
     });
 });
